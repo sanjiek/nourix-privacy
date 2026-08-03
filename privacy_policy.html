@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy – Nourix</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e0e0f0;
+      line-height: 1.7;
+      padding: 0 16px 60px;
+    }
+    .container { max-width: 760px; margin: 0 auto; }
+    header {
+      padding: 48px 0 32px;
+      border-bottom: 1px solid #1e1e30;
+      margin-bottom: 40px;
+    }
+    .logo { font-size: 28px; font-weight: 800; color: #3d8ef8; }
+    .logo span { color: #e0e0f0; }
+    header p { color: #888; margin-top: 6px; font-size: 14px; }
+    h2 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #ffffff;
+      margin: 36px 0 12px;
+      padding-left: 12px;
+      border-left: 3px solid #3d8ef8;
+    }
+    p { color: #b0b0c8; margin-bottom: 12px; }
+    ul { color: #b0b0c8; padding-left: 20px; margin-bottom: 12px; }
+    ul li { margin-bottom: 6px; }
+    a { color: #3d8ef8; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .highlight {
+      background: #1a1a2e;
+      border: 1px solid #2a2a45;
+      border-radius: 12px;
+      padding: 16px 20px;
+      margin: 16px 0;
+    }
+    .highlight p { margin: 0; color: #c0c0d8; }
+    footer {
+      margin-top: 60px;
+      padding-top: 24px;
+      border-top: 1px solid #1e1e30;
+      color: #555;
+      font-size: 13px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">Nourix<span> · Privacy Policy</span></div>
+      <p>Last updated: August 3, 2026 &nbsp;·&nbsp; Effective immediately</p>
+    </header>
+
+    <div class="highlight">
+      <p>Nourix ("we", "our", or "the app") is an AI-powered nutrition and calorie tracker. This policy explains what data we collect, how we use it, and your rights over it. By using Nourix, you agree to this policy.</p>
+    </div>
+
+    <h2>1. Information We Collect</h2>
+    <p>We collect only what is necessary to provide the app's features:</p>
+    <ul>
+      <li><strong>Account data</strong> — your name and email address via Google Sign-In (Firebase Authentication).</li>
+      <li><strong>Nutrition & food logs</strong> — meals, calories, and macros you log manually or via AI scan.</li>
+      <li><strong>Body metrics</strong> — height, weight, age, and activity level you enter for calorie goal calculations.</li>
+      <li><strong>Health & fitness data</strong> — steps, active calories, and exercise sessions read from Health Connect (Android), only if you grant permission.</li>
+      <li><strong>Meal photos & descriptions</strong> — images or text you submit to the AI scan feature. These are sent to OpenAI's API for analysis and are not stored by us.</li>
+      <li><strong>Subscription data</strong> — purchase and subscription status managed by Google Play Billing and RevenueCat. We do not store payment card details.</li>
+      <li><strong>Device information</strong> — basic app diagnostics (crash logs, performance data) via Firebase.</li>
+    </ul>
+
+    <h2>2. How We Use Your Data</h2>
+    <ul>
+      <li>To display your daily nutrition summary and history.</li>
+      <li>To calculate personalised calorie and macro goals.</li>
+      <li>To power the AI meal scan and describe features via OpenAI's API.</li>
+      <li>To manage your Premium subscription status.</li>
+      <li>To send meal reminder notifications (only if you enable them).</li>
+      <li>To improve app stability and performance.</li>
+    </ul>
+    <p>We do not use your data for advertising, and we do not sell your data to third parties.</p>
+
+    <h2>3. Data Storage & Security</h2>
+    <p>Your food logs, goals, and profile are stored in Google Cloud Firestore under your unique Firebase user ID. Only you can access your own data. All data is transmitted over encrypted HTTPS connections.</p>
+    <p>Meal photos sent to the AI scan feature are transmitted directly to OpenAI's API and are subject to <a href="https://openai.com/policies/privacy-policy" target="_blank">OpenAI's Privacy Policy</a>. We do not retain these images on our servers.</p>
+
+    <h2>4. Health Data</h2>
+    <p>Nourix can read steps, active calories, and exercise sessions from Health Connect. This data is used solely to display your activity summary and estimate calories burned. We do not share health data with any third party. Health data is not used for advertising.</p>
+    <p>You can revoke Health Connect access at any time from your device's Health Connect settings.</p>
+
+    <h2>5. Third-Party Services</h2>
+    <p>Nourix uses the following third-party services, each with their own privacy policies:</p>
+    <ul>
+      <li><a href="https://firebase.google.com/support/privacy" target="_blank">Firebase (Google)</a> — authentication, database, and crash reporting.</li>
+      <li><a href="https://openai.com/policies/privacy-policy" target="_blank">OpenAI</a> — AI meal analysis (photos and text descriptions).</li>
+      <li><a href="https://www.revenuecat.com/privacy" target="_blank">RevenueCat</a> — subscription management.</li>
+      <li><a href="https://play.google.com/about/play-terms/" target="_blank">Google Play Billing</a> — payment processing.</li>
+    </ul>
+
+    <h2>6. Subscriptions & Payments</h2>
+    <p>Nourix offers optional Premium subscriptions processed by Google Play. All billing is handled by Google — we never see or store your payment card information. You can manage or cancel your subscription at any time via Google Play → Account → Subscriptions.</p>
+    <p>For refund requests, contact Google Play support at <a href="https://support.google.com/googleplay" target="_blank">support.google.com/googleplay</a>.</p>
+
+    <h2>7. Data Retention</h2>
+    <p>Your data is retained as long as your account is active. If you delete your account or request data deletion, all your food logs, profile data, and account information will be permanently removed from our servers within 30 days.</p>
+
+    <h2>8. Children's Privacy</h2>
+    <p>Nourix is not directed at children under the age of 13. We do not knowingly collect personal data from children. If you believe a child has provided us with personal data, please contact us and we will delete it promptly.</p>
+
+    <h2>9. Your Rights</h2>
+    <p>You have the right to:</p>
+    <ul>
+      <li>Access the data we hold about you.</li>
+      <li>Request correction of inaccurate data.</li>
+      <li>Request deletion of your data.</li>
+      <li>Withdraw consent for Health Connect access at any time.</li>
+    </ul>
+    <p>To exercise these rights, contact us at the email below.</p>
+
+    <h2>10. Changes to This Policy</h2>
+    <p>We may update this policy from time to time. Significant changes will be communicated via an in-app notice. Continued use of Nourix after changes constitutes acceptance of the updated policy.</p>
+
+    <h2>11. Contact Us</h2>
+    <p>If you have questions about this privacy policy or your data, contact us at:</p>
+    <div class="highlight">
+      <p>📧 <a href="mailto:jieksan1996@gmail.com">jieksan1996@gmail.com</a></p>
+    </div>
+
+    <footer>
+      © 2026 Nourix. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
