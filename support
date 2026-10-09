@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support – Nourix</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e0e0f0;
+      line-height: 1.7;
+      padding: 0 16px 60px;
+    }
+    .container { max-width: 760px; margin: 0 auto; }
+    header {
+      padding: 48px 0 32px;
+      border-bottom: 1px solid #1e1e30;
+      margin-bottom: 40px;
+    }
+    .logo { font-size: 28px; font-weight: 800; color: #3d8ef8; }
+    .logo span { color: #e0e0f0; }
+    header p { color: #888; margin-top: 6px; font-size: 14px; }
+    h2 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #ffffff;
+      margin: 36px 0 12px;
+      padding-left: 12px;
+      border-left: 3px solid #3d8ef8;
+    }
+    p { color: #b0b0c8; margin-bottom: 12px; }
+    ul { color: #b0b0c8; padding-left: 20px; margin-bottom: 12px; }
+    ul li { margin-bottom: 6px; }
+    a { color: #3d8ef8; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .highlight {
+      background: #1a1a2e;
+      border: 1px solid #2a2a45;
+      border-radius: 12px;
+      padding: 16px 20px;
+      margin: 16px 0;
+    }
+    .highlight p { margin: 0; color: #c0c0d8; }
+    footer {
+      margin-top: 60px;
+      padding-top: 24px;
+      border-top: 1px solid #1e1e30;
+      color: #555;
+      font-size: 13px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Nourix Support</h1>
+      <p>Calorie &amp; macro tracker for Malaysian food</p>
+    </header>
+
+    <div class="highlight">
+      <p>Need help? Email us at <a href="mailto:jieksan1996@gmail.com">jieksan1996@gmail.com</a> — we usually reply within 2 working days.</p>
+    </div>
+
+    <h2>Frequently Asked Questions</h2>
+
+    <h3>How do I log a meal?</h3>
+    <p>Tap the + button on the Today screen and choose Take Photo, From Gallery, Describe Food or Manual.</p>
+
+    <h3>How accurate is the AI meal scan?</h3>
+    <p>AI results are estimates. You can adjust portions and edit every item before saving.</p>
+
+    <h3>How do I cancel my subscription?</h3>
+    <p><strong>iPhone / iPad:</strong> Settings app → tap your name → Subscriptions → Nourix → Cancel Subscription.<br>
+    <strong>Android:</strong> Google Play → Payments &amp; subscriptions → Subscriptions → Nourix → Cancel.</p>
+
+    <h3>How do I get a refund?</h3>
+    <p><strong>iPhone / iPad:</strong> refunds are handled by Apple at <a href="https://reportaproblem.apple.com" target="_blank">reportaproblem.apple.com</a>.<br>
+    <strong>Android:</strong> contact <a href="https://support.google.com/googleplay" target="_blank">Google Play support</a>.</p>
+
+    <h3>I subscribed but the app still shows Free.</h3>
+    <p>Open Settings → Upgrade to Premium → Restore Purchases, using the same Apple ID / Google account you subscribed with.</p>
+
+    <h3>How do I delete my account?</h3>
+    <p>In the app: Settings → Delete Account. All your data is permanently deleted. Deleting your account does not cancel a subscription — cancel it as shown above.</p>
+
+    <h3>Is Nourix medical advice?</h3>
+    <p>No. Nourix is a general nutrition tracking app, not a medical device. Consult a healthcare professional before making significant changes to your diet.</p>
+
+    <h2>Legal</h2>
+    <p><a href="./">Privacy Policy</a> · <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank">Terms of Use (EULA)</a></p>
+  </div>
+</body>
+</html>
