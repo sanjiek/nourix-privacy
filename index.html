@@ -57,7 +57,7 @@
   <div class="container">
     <header>
       <div class="logo">Nourix<span> · Privacy Policy</span></div>
-      <p>Last updated: August 3, 2026 &nbsp;·&nbsp; Effective immediately</p>
+      <p>Last updated: October 10, 2026 &nbsp;·&nbsp; Effective immediately</p>
     </header>
 
     <div class="highlight">
@@ -67,12 +67,12 @@
     <h2>1. Information We Collect</h2>
     <p>We collect only what is necessary to provide the app's features:</p>
     <ul>
-      <li><strong>Account data</strong> — your name and email address via Google Sign-In (Firebase Authentication).</li>
+      <li><strong>Account data</strong> — your name and email address via Google Sign-In, Sign in with Apple or email login (Firebase Authentication). If you use Sign in with Apple's "Hide My Email", we only receive the relay address.</li>
       <li><strong>Nutrition & food logs</strong> — meals, calories, and macros you log manually or via AI scan.</li>
       <li><strong>Body metrics</strong> — height, weight, age, and activity level you enter for calorie goal calculations.</li>
-      <li><strong>Health & fitness data</strong> — steps, active calories, and exercise sessions read from Health Connect (Android), only if you grant permission.</li>
-      <li><strong>Meal photos & descriptions</strong> — images or text you submit to the AI scan feature. These are sent to OpenAI's API for analysis and are not stored by us.</li>
-      <li><strong>Subscription data</strong> — purchase and subscription status managed by Google Play Billing and RevenueCat. We do not store payment card details.</li>
+      <li><strong>Health & fitness data (Android only)</strong> — steps, active calories, and exercise sessions read from Health Connect, only if you grant permission. The iOS app does not access Apple Health (HealthKit).</li>
+      <li><strong>Meal photos & descriptions</strong> — images or text you submit to the AI scan / describe features. The app asks for your permission before the first time anything is sent. Only the submitted photo or text is sent to OpenAI's API for analysis — not your name, email or other logs — and we do not store it on our servers.</li>
+      <li><strong>Subscription data</strong> — purchase and subscription status managed by the Apple App Store or Google Play Billing, and RevenueCat. We do not store payment card details.</li>
       <li><strong>Device information</strong> — basic app diagnostics (crash logs, performance data) via Firebase.</li>
     </ul>
 
@@ -91,8 +91,8 @@
     <p>Your food logs, goals, and profile are stored in Google Cloud Firestore under your unique Firebase user ID. Only you can access your own data. All data is transmitted over encrypted HTTPS connections.</p>
     <p>Meal photos sent to the AI scan feature are transmitted directly to OpenAI's API and are subject to <a href="https://openai.com/policies/privacy-policy" target="_blank">OpenAI's Privacy Policy</a>. We do not retain these images on our servers.</p>
 
-    <h2>4. Health Data</h2>
-    <p>Nourix can read steps, active calories, and exercise sessions from Health Connect. This data is used solely to display your activity summary and estimate calories burned. We do not share health data with any third party. Health data is not used for advertising.</p>
+    <h2>4. Health Data (Android)</h2>
+    <p>On Android, Nourix can read steps, active calories, and exercise sessions from Health Connect. This data is used solely to display your activity summary and estimate calories burned. We do not share health data with any third party. Health data is not used for advertising.</p>
     <p>You can revoke Health Connect access at any time from your device's Health Connect settings.</p>
 
     <h2>5. Third-Party Services</h2>
@@ -101,12 +101,13 @@
       <li><a href="https://firebase.google.com/support/privacy" target="_blank">Firebase (Google)</a> — authentication, database, and crash reporting.</li>
       <li><a href="https://openai.com/policies/privacy-policy" target="_blank">OpenAI</a> — AI meal analysis (photos and text descriptions).</li>
       <li><a href="https://www.revenuecat.com/privacy" target="_blank">RevenueCat</a> — subscription management.</li>
-      <li><a href="https://play.google.com/about/play-terms/" target="_blank">Google Play Billing</a> — payment processing.</li>
+      <li><a href="https://www.apple.com/legal/privacy/" target="_blank">Apple App Store</a> / <a href="https://play.google.com/about/play-terms/" target="_blank">Google Play Billing</a> — payment processing.</li>
     </ul>
 
     <h2>6. Subscriptions & Payments</h2>
-    <p>Nourix offers optional Premium subscriptions processed by Google Play. All billing is handled by Google — we never see or store your payment card information. You can manage or cancel your subscription at any time via Google Play → Account → Subscriptions.</p>
-    <p>For refund requests, contact Google Play support at <a href="https://support.google.com/googleplay" target="_blank">support.google.com/googleplay</a>.</p>
+    <p>Nourix offers optional auto-renewing Premium subscriptions. On iPhone and iPad, payment is processed by Apple and charged to your Apple ID; on Android, by Google Play. We never see or store your payment card information.</p>
+    <p><strong>iOS:</strong> manage or cancel in Settings → your name → Subscriptions. Refunds are handled by Apple at <a href="https://reportaproblem.apple.com" target="_blank">reportaproblem.apple.com</a>.<br>
+    <strong>Android:</strong> manage or cancel via Google Play → Payments &amp; subscriptions → Subscriptions. For refunds, contact <a href="https://support.google.com/googleplay" target="_blank">Google Play support</a>.</p>
 
     <h2>7. Data Retention</h2>
     <p>Your data is retained as long as your account is active. If you delete your account or request data deletion, all your food logs, profile data, and account information will be permanently removed from our servers within 30 days.</p>
